@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Sign In</title>
+    <link rel="stylesheet" href="RegDesign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-box">
+            <div class="image-side">
+                <img src="mainbg.jpg" alt="Model Image">
+            </div>
+            <div class="form-side">
+                <div class="login-box">
+                    <div class="form-header">
+                        <button id="signup-btn" class="active">Sign Up</button>
+                        <button id="signin-btn">Sign In</button>
+                    </div>
+
+                    <form id="signup-form">
+                        <h1>Sign Up</h1>
+
+                        <div class="name-fields">
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+
+                        <input type="text" placeholder="Username" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <select>
+                            <option value="" disabled selected>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <button type="submit">Register →</button>
+                    </form>
+
+                    <form id="signin-form" style="display: none;">
+                        <h1>Sign In</h1>
+                        <input type="text" placeholder="Username" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <button type="submit">Login →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to toggle between Sign Up and Sign In forms
+        const signupBtn = document.getElementById('signup-btn');
+        const signinBtn = document.getElementById('signin-btn');
+        const signupForm = document.getElementById('signup-form');
+        const signinForm = document.getElementById('signin-form');
+
+        signupBtn.addEventListener('click', () => {
+            signupForm.style.display = 'block';
+            signinForm.style.display = 'none';
+            signupBtn.classList.add('active');
+            signinBtn.classList.remove('active');
+        });
+
+        signinBtn.addEventListener('click', () => {
+            signupForm.style.display = 'none';
+            signinForm.style.display = 'block';
+            signinBtn.classList.add('active');
+            signupBtn.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
 
