@@ -86,7 +86,6 @@ button:hover {
     background-color: #555;
 }
 
-/* Styles for form header buttons */
 .form-header {
     display: flex;
     justify-content: space-between;
@@ -107,3 +106,28 @@ button:hover {
     border-bottom: 2px solid #333;
 }
 
+.tos-link {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tos-link:hover {
+    color: #004080;
+}
+
+.privacy-policy-link {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.privacy-policy-link:hover {
+    color: #004080;
+}
