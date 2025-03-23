@@ -38,6 +38,9 @@
                         <input type="password" placeholder="Password" required>
                         <input type="password" placeholder="Confirm Password" required>
                         <button type="submit">Register →</button>
+
+                        <a href="ToS.html" class="tos-link">Terms of Service</a>
+                        <a href="Policy.html" class="privacy-policy-link">Privacy Policy</a>
                     </form>
 
                     <form id="signin-form" style="display: none;">
@@ -76,4 +79,3 @@
     </script>
 </body>
 </html>
-
