@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <link rel="icon" type="image/png" href="MO Logo.png">
+    <link rel="stylesheet" href="ToS.css">
+</head>
+<body>
+    <h1>Terms of Service of The Modish Brand
+        <pre>
+Hello and Welcome to The Modish Brand!
+
+By using and accessing our website, products, or services,
+you are bound by the below Terms of Service. Please read them thoroughly.
+If you do not accept these terms, please avoid using our site.
+        </pre>
+    </h1>
+
+    <h2>1. Acceptance of Terms
+        <pre>
+        In consideration for being able to use our site or purchasing something from The Modish Brand,
+        you shall comply with and be bound by these Terms of Service and relevant laws and 
+        regulations.
+
+        If you have any concerns about these terms, you shouldn't use our website.
+        </pre>
+    </h2>
+
+    <h2>2. Product Availability
+        <pre>
+        All items sold on The Modish Brand are available subject to stock. 
+        We have the right to restrict the quantities of any item or service that we provide. 
+        Prices for our items may change at any time without notice.
+        </pre>
+    </h2>
+
+    <h2>3. Orders and Payment
+        <pre>
+        By ordering through our website, you consent to supplying accurate and full information,
+        including your payment information. Payment can be made through credit cards, debit cards,
+        PayPal, and other available methods on the site.
+        You consent to covering all charges you incur in making the transaction, including shipping 
+        charges.
+        </pre>
+    </h2>
+
+    <h2>4. Shipping and Delivery
+        <pre>
+        We will try our best to send your order quickly after your order. 
+        But The Modish Brand is not liable for delays in shipping due to outside forces 
+        (weather, customs, courier etc.).
+        </pre>
+    </h2>
+
+    <h2>5. Returns and Exchanges
+        <pre>
+        We have a [number of days] day return and exchange policy on most items.
+        See our Returns Policy for further information.
+        </pre>
+    </h2>
+
+    <h2>6. User Accounts
+        <pre>
+        To make purchases and use some features on our website, you may be required to create 
+        an account.
+        You consent to offering true and current information as well as keeping your account details
+        confidential.
+        </pre>
+    </h2>
+
+    <h2>7. Prohibited Conduct
+        <pre>
+        You consent not to participate in any conduct that might harm, disable,
+        or detract from the functionality of the site, cause interference with other customers,
+        or contravene any law applicable. 
+        </pre>
+    </h2>
+
+    <h2>8. Limitation of Liability
+        <pre>
+        To the maximum extent permitted by law, The Modish Brand will not be responsible for 
+        any indirect, incidental, special, or consequential damages resulting from your use of 
+        our products or website.
+        </pre>
+    </h2>
+
+    <h2>9. Changes to Terms
+        <pre>
+        We reserve the right to modify or update these Terms of Service at any time.
+        Any changes will be posted on this page with the updated effective date.
+        </pre>
+    </h2>
+
+
+    <p>Do you want to go back in <a href="TMJReg.html">Register?</a></p>
+</body>
+</html>
