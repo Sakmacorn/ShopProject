@@ -131,3 +131,16 @@ button:hover {
 .privacy-policy-link:hover {
     color: #004080;
 }
+
+.main-web-link {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-web-link:hover {
+    color: grey;
+}
