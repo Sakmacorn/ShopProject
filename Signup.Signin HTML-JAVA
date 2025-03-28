@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up / Sign In</title>
+    <title>The Modish Brand</title>
     <link rel="stylesheet" href="RegDesign.css">
+    <link rel="icon" type="image/png" href="TMJLOGOS.png">
 </head>
 <body>
     <div class="container">
@@ -41,6 +42,7 @@
 
                         <a href="ToS.html" class="tos-link">Terms of Service</a>
                         <a href="Policy.html" class="privacy-policy-link">Privacy Policy</a>
+                        <a href="mainweb.html" class="main-web-link">Back to Main Website</a>
                     </form>
 
                     <form id="signin-form" style="display: none;">
