@@ -18,7 +18,7 @@ header {
     color: black;
     padding: 10px 0px;
     text-transform: uppercase;
-    box-shadow: 5px 1px 116px 5px rgba(0,0,0,1);
+    box-shadow: 5px 1px 10px 5px rgba(0,0,0,1);
     position: relative;
 }
 
