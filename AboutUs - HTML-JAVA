@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" type="image/png" href="TMJLOGOS.png">
+    <link rel="stylesheet" href="AboutUs.css">
+</head> 
+<body>
+    <div class="container">
+        <header>
+            <h1>The Modish Brand</h1>
+        </header>
+    </div>
+
+    <div class="menu-container">
+        <div class="menu-icon">&#9776;</div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Categories</a></li>
+                <li><a href="">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="right">
+        <ul>
+            <li><a href="TMJReg.html">Register Now</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <section class="about-section">
+        <img id="AboutImage" src="example.picture.avif" alt="Model">
+        <div class="about-text">
+            <p>
+                Growing up, I faced the reality of not always having good clothes due to my family’s financial struggles.
+                We couldn’t afford branded clothing, and it made me realize how many people go through the same.
+                As I got older, I became determined to create a solution. That’s why I started The Modish Brand—to provide stylish,
+                quality clothing for those who might not have the means but still deserve to feel confident in what they wear.
+                With The Modish Brand, everyone can afford good clothes without sacrificing style.
+            </p>
+        </div>
+
+    </section>
+        
+    <section class="About-USP">
+        <img id="AboutUSP" src="usp picture.jpg" alt="Model2">
+        <div class="about-text2">
+            <h3>The Modish Brand – Where Style Meets Affordability!</h3>
+            <p>
+                At The Modish Brand, we believe that everyone deserves to feel stylish and confident, no matter their budget.
+                Unlike other fashion brands that prioritize high price tags, we make premium-quality clothing accessible to
+                all—without compromising on style, comfort, or durability. Our mission is to empower individuals by offering trendy,
+                high-quality apparel that fits every budget.
+            </p>
+            <ul>
+                <h4>Why Choose The Modish Brand?</h4>
+                <li>Affordable Luxury – Designer-level fashion at everyday prices.</li>
+                <li> Quality You Can Trust – Durable fabrics & modern designs.</li>
+                <li>Confidence for Everyone – Clothes that make you look good & feel good.</li>
+                <h4>With The Modish Brand, you don’t have to choose between affordability and style—you get both!</h4>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const links = document.querySelectorAll('nav ul li a, .right ul li a');
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                if (this.getAttribute('href') === '' || this.getAttribute('href') === '#') {
+                    event.preventDefault(); // Only prevent default for links with no real destination
+                }
+    
+                links.forEach(item => item.classList.remove('active'));
+    
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
