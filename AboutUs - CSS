@@ -1,0 +1,218 @@
+body {
+    font-family: sans-serif;
+    background: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+header {
+    background: white;
+    color: black;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    box-shadow: 5px 1px 10px 5px rgba(0,0,0,1);
+    position: relative;
+}
+
+.menu-container {
+    position: absolute;
+    top: 27.9px;
+    left: 60px; 
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    margin-right: 20px;
+}
+
+.menu-icon:hover {
+    color: grey;
+}
+
+nav {
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    margin-top: 4.5px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+nav ul li a.active,
+.right ul li a.active {
+    color: black;
+    font-weight: bold;
+}
+
+.right {
+    position: absolute;
+    top: 30px;
+    right: 60px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    font-size: 25px;
+    margin-top: 4.5px;
+}
+
+.right ul li {
+    margin: 0 10px; 
+    display: inline; 
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: #333; 
+}
+
+.right ul li a:hover {
+    color: grey;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* About Image */
+#AboutImage {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+/* About Text */
+.about-text {
+    flex: 1;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #AboutImage {
+        width: 80%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+/* USP Section */
+.About-USP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* USP Image */
+#AboutUSP {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+/* USP Text */
+.about-text2 {
+    flex: 1;
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* USP List */
+.about-text2 ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.about-text2 ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Adding a custom bullet (●) */
+.about-text2 ul li::before {
+    content: "●";
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .About-USP {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #AboutUSP {
+        width: 80%;
+    }
+
+    .about-text2 {
+        text-align: center;
+    }
+
+    .about-text2 ul {
+        text-align: left;
+        display: inline-block;
+    }
+}
