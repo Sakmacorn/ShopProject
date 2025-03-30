@@ -216,3 +216,47 @@ nav ul li a.active,
         display: inline-block;
     }
 }
+
+/* About Operate */
+.about-Operate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* About Image */
+#AboutOp {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+/* About Text */
+.about-text3 {
+    flex: 1;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-Operate {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #AboutOp {
+        width: 80%;
+    }
+
+    .about-text3 {
+        text-align: center;
+    }
+}
