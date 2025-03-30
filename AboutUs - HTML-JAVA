@@ -66,16 +66,17 @@
         </div>
     </section>
 
+    <section class="about-Operate">
+        <img id="AboutOp" src="AboutOperate.jpg" alt="Model3">
+        <div class="about-text3">
+            <p>
+                At The Modish Brand, we believe fashion should be stylish and affordable for everyone.
+                We design our collections with high-quality materials while keeping prices accessible.
+                Unlike other brands that mark up prices, we ensure that premium fashion remains within reach for all.
+            </p>
+        </div>
 
-
-
-
-
-
-
-
-
-
+    </section>
 
     <script>
         const links = document.querySelectorAll('nav ul li a, .right ul li a');
