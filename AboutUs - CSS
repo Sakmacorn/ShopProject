@@ -35,7 +35,10 @@ header {
     cursor: pointer;
     display: block;
     margin-right: 20px;
-}
+    margin-bottom: 30px;
+    margin-top: 28px;
+    
+}   
 
 .menu-icon:hover {
     color: grey;
@@ -74,10 +77,10 @@ nav ul li a.active,
 
 .right {
     position: absolute;
-    top: 30px;
-    right: 60px; 
-    display: flex; 
-    align-items: center; 
+    top: 38px;
+    right: 40px;
+    left: 1200px;
+    margin: 0;
 }
 
 .right ul {
@@ -85,178 +88,99 @@ nav ul li a.active,
     padding: 0;
     margin: 0;
     display: flex; 
-    font-size: 25px;
-    margin-top: 4.5px;
 }
 
 .right ul li {
-    margin: 0 10px; 
-    display: inline; 
+    margin: 0 15px; /* Add spacing between links */
 }
 
 .right ul li a {
     text-decoration: none;
-    color: #333; 
+    color: black;
+    font-size: 25px;
 }
 
 .right ul li a:hover {
     color: grey;
 }
 
-
-.about-section {
-    display: flex;
-    align-items: center;
+/* Basic styling for the dropdown container */
+.dropdown {
+    position: relative;;
     justify-content: center;
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
-    gap: 30px;
+  }
+  
+  /* Style the button that triggers the dropdown */
+.dropbtn {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    margin: 0;
 }
-
-/* About Image */
-#AboutImage {
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
-    object-fit: cover;
-}
-
-/* About Text */
-.about-text {
-    flex: 1;
-    font-size: 20px;
-    text-align: left;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #AboutImage {
-        width: 80%;
-    }
-
-    .about-text {
-        text-align: center;
-    }
-}
-
-/* USP Section */
-.About-USP {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
-    gap: 30px;
-}
-
-/* USP Image */
-#AboutUSP {
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
-    object-fit: cover;
-}
-
-/* USP Text */
-.about-text2 {
-    flex: 1;
-    font-size: 19px;
-    text-align: left;
-    line-height: 1.5;
-}
-
-/* USP List */
-.about-text2 ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 10px;
-}
-
-.about-text2 ul li {
-    margin: 5px 0;
-    padding-left: 20px;
-    position: relative;
-}
-
-/* Adding a custom bullet (●) */
-.about-text2 ul li::before {
-    content: "●";
-    color: #333;
-    font-weight: bold;
+  
+  /* The dropdown menu itself (hidden by default) */
+.dropdown-content {
+    display: none;
     position: absolute;
+    top: 100%; /* Pushes the dropdown exactly below the button */
     left: 0;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: calc(100% + 5px);
+    padding: 10px 0;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .About-USP {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #AboutUSP {
-        width: 80%;
-    }
-
-    .about-text2 {
-        text-align: center;
-    }
-
-    .about-text2 ul {
-        text-align: left;
-        display: inline-block;
-    }
+  
+  /* Style for each link inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 0;
+}
+  
+  /* Change color of links when hovered */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu when hovering over the button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* Optional: Change the color of the button when hovered */
+.dropdown:hover .dropbtn {
+    background-color: #eee;
 }
 
-/* About Operate */
-.about-Operate {
+
+.menu-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
-    gap: 30px;
+    gap: 10px; /* Adds spacing between menu items */
+    position: absolute;
+    top: 1px;
+    
 }
 
-/* About Image */
-#AboutOp {
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
-    object-fit: cover;
+nav ul {
+    display: flex;
+    align-items: center;
 }
 
-/* About Text */
-.about-text3 {
-    flex: 1;
-    font-size: 20px;
-    text-align: left;
-    line-height: 1.6;
-    text-align: justify;
+nav ul li, .dropdown {
+    display: flex;
+    align-items: center;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-Operate {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #AboutOp {
-        width: 80%;
-    }
-
-    .about-text3 {
-        text-align: center;
-    }
-}
