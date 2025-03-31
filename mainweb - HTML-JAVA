@@ -19,20 +19,33 @@
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">Categories</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                      <a href="jacket.html">Jacket</a>
+                      <a href="#">Pants Women</a>
+                      <a href="#">Pants Men</a>
+                      <a href="#">Polo Women</a>
+                      <a href="#">Polo Men</a>
+                      <a href="#">Polo-Shirt</a>
+                      <a href="#">Shirt Men</a>
+                      <a href="#">Skirt</a>
+                      <a href="#">Underwear Women</a>
+                      <a href="#">Underwear Men</a>
+                    </div>
+                 </div>
                 <li><a href="">New Arrivals</a></li>
             </ul>
         </nav>
     </div>
 
-    <div class="right">
+    <div class="right"> 
         <ul>
             <li><a href="TMJReg.html">Register Now</a></li>
             <li><a href="account.html">Account</a></li>
-            <li><a href="">About Us</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
         </ul>
     </div>
-
     <!-- JavaScript to toggle 'active' class -->
     <script>
         const links = document.querySelectorAll('nav ul li a, .right ul li a');
