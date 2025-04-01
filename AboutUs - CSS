@@ -35,10 +35,7 @@ header {
     cursor: pointer;
     display: block;
     margin-right: 20px;
-    margin-bottom: 30px;
-    margin-top: 28px;
-    
-}   
+}
 
 .menu-icon:hover {
     color: grey;
@@ -77,10 +74,10 @@ nav ul li a.active,
 
 .right {
     position: absolute;
-    top: 38px;
-    right: 40px;
-    left: 1200px;
-    margin: 0;
+    top: 30px;
+    right: 60px; 
+    display: flex; 
+    align-items: center; 
 }
 
 .right ul {
@@ -88,99 +85,232 @@ nav ul li a.active,
     padding: 0;
     margin: 0;
     display: flex; 
+    font-size: 25px;
+    margin-top: 4.5px;
 }
 
 .right ul li {
-    margin: 0 15px; /* Add spacing between links */
+    margin: 0 10px; 
+    display: inline; 
 }
 
 .right ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 25px;
+    color: #333; 
 }
 
 .right ul li a:hover {
     color: grey;
 }
 
-/* Basic styling for the dropdown container */
-.dropdown {
-    position: relative;;
+
+.about-section {
+    display: flex;
+    align-items: center;
     justify-content: center;
-  }
-  
-  /* Style the button that triggers the dropdown */
-.dropbtn {
-    background-color: #ffffff; 
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-    line-height: normal;
-    margin: 0;
-}
-  
-  /* The dropdown menu itself (hidden by default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%; /* Pushes the dropdown exactly below the button */
-    left: 0;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    top: calc(100% + 5px);
-    padding: 10px 0;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 30px;
 }
 
-  
-  /* Style for each link inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    margin-top: 0;
-    padding-top: 10px;
+/* About Image */
+#AboutImage {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+/* About Text */
+.about-text {
+    flex: 1;
     font-size: 20px;
-    margin-right: 0;
-}
-  
-  /* Change color of links when hovered */
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-  
-  /* Show the dropdown menu when hovering over the button */
-  .dropdown:hover .dropdown-content {
-    display: block;
-}
-  
-  /* Optional: Change the color of the button when hovered */
-.dropdown:hover .dropbtn {
-    background-color: #eee;
+    text-align: left;
+    line-height: 1.6;
+    text-align: justify;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
 
-.menu-container {
+    #AboutImage {
+        width: 80%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+/* USP Section */
+.About-USP {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adds spacing between menu items */
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* USP Image */
+#AboutUSP {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+/* USP Text */
+.about-text2 {
+    flex: 1;
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* USP List */
+.about-text2 ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.about-text2 ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Adding a custom bullet (●) */
+.about-text2 ul li::before {
+    content: "●";
+    color: #333;
+    font-weight: bold;
     position: absolute;
-    top: 1px;
-    
+    left: 0;
 }
 
-nav ul {
+/* Responsive Design */
+@media (max-width: 768px) {
+    .About-USP {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #AboutUSP {
+        width: 80%;
+    }
+
+    .about-text2 {
+        text-align: center;
+    }
+
+    .about-text2 ul {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+/* About Operate */
+.about-Operate {
     display: flex;
     align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 30px;
 }
 
-nav ul li, .dropdown {
-    display: flex;
-    align-items: center;
+/* About Image */
+#AboutOp {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
 }
 
+/* About Text */
+.about-text3 {
+    flex: 1;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-Operate {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #AboutOp {
+        width: 80%;
+    }
+
+    .about-text3 {
+        text-align: center;
+    }
+}
+
+.Creators h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-family: Helvetica;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.ProductManager, .Founder, .SalesManager {
+    display: inline-block;
+    width: 250px; /* Adjust as needed */
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.avatar, .avatar2, .avatar3 {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+}
+
+.Pm {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.Ld {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.Sm {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+    padding-bottom: 10px;
+}
