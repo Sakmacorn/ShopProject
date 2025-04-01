@@ -18,21 +18,7 @@
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Categories</button>
-                    <div class="dropdown-content">
-                      <a href="jacket.html">Jacket</a>
-                      <a href="#">Pants Women</a>
-                      <a href="#">Pants Men</a>
-                      <a href="#">Polo Women</a>
-                      <a href="#">Polo Men</a>
-                      <a href="#">Polo-Shirt</a>
-                      <a href="#">Shirt Men</a>
-                      <a href="#">Skirt</a>
-                      <a href="#">Underwear Women</a>
-                      <a href="#">Underwear Men</a>
-                    </div>
-                 </div>
+                <li><a href="">Categories</a></li>
                 <li><a href="">New Arrivals</a></li>
             </ul>
         </nav>
@@ -89,8 +75,33 @@
                 Unlike other brands that mark up prices, we ensure that premium fashion remains within reach for all.
             </p>
         </div>
-
     </section>
+
+    <div class="Creators">
+        <h4>Meet the Creators of The Modish Brand.</h4>
+    </div>
+
+    <div class="ProductManager">
+        <h4>Jerana Rylyn P. Regala</h4>
+        <p class="Pm">Product Manager</p>
+        <img src="avatar1.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="Founder">
+        <h4>Miguel M. Lulu</h4>
+        <p class="Ld">Founder & Lead Developer</p>
+        <img src="avatar2.jpg" alt="Avatar" class="avatar2">
+    </div>
+
+    <div class="SalesManager">
+        <h4>Tyron Jay T. Gonzales</h4>
+        <p class="Sm">Sales Manager</p>
+        <img src="avatar3.jpg" alt="Avatar" class="avatar3">
+    </div>
+    
+
+    
+
 
     <script>
         const links = document.querySelectorAll('nav ul li a, .right ul li a');
