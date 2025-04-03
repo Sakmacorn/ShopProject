@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Modish Brand</title>
+    <title>Categories</title>
     <link rel="icon" type="image/png" href="TMJLOGOS.png">
     <link rel="stylesheet" href="categ.css">
 </head> 
@@ -19,22 +19,34 @@
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                 <div class="dropdown">
+                <li class="dropdown">
                     <button class="dropbtn">Categories</button>
                     <div class="dropdown-content">
-                      <a href="#">Jacket</a>
-                      <a href="#">Pants Women</a>
-                      <a href="#">Pants Men</a>
-                      <a href="#">Polo Women</a>
-                      <a href="#">Polo Men</a>
-                      <a href="#">Polo-Shirt</a>
-                      <a href="#">Shirt Men</a>
-                      <a href="#">Skirt</a>
-                      <a href="#">Underwear Women</a>
-                      <a href="#">Underwear Men</a>
+                        <a href="">Jacket</a>
+                        <a href="#">Pants Women</a>
+                        <a href="#">Pants Men</a>
+                        <a href="#">Polo Women</a>
+                        <a href="#">Polo Men</a>
+                        <a href="#">Polo-Shirt</a>
+                        <a href="#">Shirt Men</a>
+                        <a href="#">Skirt</a>
+                        <a href="#">Underwear Women</a>
+                        <a href="#">Underwear Men</a>
                     </div>
-                 </div>
-                <li><a href="">New Arrivals</a></li>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">New Arrivals</button>
+                    <div class="dropdown-content">
+                        <a href="jacket.html">Jacket</a>
+                        <a href="PantsW.html">Pants Women</a>
+                        <a href="PantsM.html">Pants Men</a>
+                        <a href="TopWomen.html">Women Tops</a>
+                        <a href="Polo.html">Polo Men</a>
+                        <a href="T-ShirtMen.html">Men T-Shirt</a>
+                        <a href="Panty.html">Underwear Women</a>
+                        <a href="brief.html">Underwear Men</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </div>
