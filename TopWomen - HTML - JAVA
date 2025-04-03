@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Women Arrivals</title>
+    <link rel="icon" type="image/png" href="TMJLOGOS.png">
+    <link rel="stylesheet" href="TopWomen.css">
+</head> 
+<body>
+    <div class="container">
+        <header>
+            <h1>The Modish Brand</h1>
+        </header>
+    </div>
+
+    <!-- Menu icon and categories together -->
+    <div class="menu-container">
+        <div class="menu-icon">&#9776;</div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <a href="">Jacket</a>
+                        <a href="#">Pants Women</a>
+                        <a href="#">Pants Men</a>
+                        <a href="#">Polo Women</a>
+                        <a href="">Polo-Shirt Men</a>
+                        <a href="#">Skirt</a>
+                        <a href="#">Underwear Women</a>
+                        <a href="#">Underwear Men</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">New Arrivals</button>
+                    <div class="dropdown-content">
+                        <a href="jacket.html">Jacket</a>
+                        <a href="PantsW.html">Pants Women</a>
+                        <a href="PantsM.html">Pants Men</a>
+                        <a href="TopWomen.html">Women Tops</a>
+                        <a href="Polo.html">Polo Men</a>
+                        <a href="T-ShirtMen.html">Men T-Shirt</a>
+                        <a href="Panty.html">Underwear Women</a>
+                        <a href="brief.html">Underwear Men</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="right"> 
+        <ul>
+            <li><a href="TMJReg.html">Register Now</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <table border="0" align="center" width="10%" class="picture">
+        <tr>
+            <td>
+                <a href=""><img src="TopW1Model.avif" alt="Smocked Strappy Top" width="300px" height="400px"></a>
+                <h3 id="TopW1">Smocked strappy top</h3>
+                <p id="php1">PHP 699</p>
+            </td>
+
+            <td>
+                <a href=""><img src="TopW2Model.avif" alt="Layered Top" width="300px" height="400px"></a>
+                <h3 id="TopW2">Layered Top</h3>
+                <p id="php2">PHP 999</p>
+            </td>
+
+            <td>
+                <a href=""><img src="TopW3Model.avif" alt="Ribbed Vest Top" width="300px" height="400px"></a>
+                <h3 id="TopW3">Ribbed vest top</h3>
+                <p id="php3">PHP 399</p>
+            </td>
+
+            <td>
+                <a href=""><img src="TopW4Model.avif" alt="Ribbed Tank Top" width="300px" height="400px"></a>
+                <h3 id="TopW4">Ribbed Tank Top</h3>
+                <p id="php4">PHP 399</p>
+            </td>
+        </tr>
+    </table>
+
+    <table border="0" align="center" width="10%" class="picture">
+        <tr>
+
+            <td>
+                <a href=""><img src="TopW5Model.avif" alt="Cotton T-Shirt" width="300px" height="400px"></a>
+                <h3 id="TopW5">Cotton T-Shirt</h3>
+                <p id="php6">PHP 299</p>
+            </td>
+
+            <td>
+                <a href=""><img src="TopW6Model.avif" alt="Picot-Trimmed T-Shirt" width="300px" height="400px"></a>
+                <h3 id="TopW6">Picot-Trimmed T-Shirt</h3>
+                <p id="php5">PHP 499</p>
+            </td>
+
+            <td>
+                <a href=""><img src="TopW7Model.avif" alt="Picot-Trimmed Sleeveless Top" width="300px" height="400px"></a>
+                <h3 id="TopW7">Picot-Trimmed Sleeveless Top</h3>
+                <p id="php7">PHP 599</p>
+            </td>
+
+            <td>
+                <a href=""><img src="TopW8Model.avif" alt="CoolMax T-shirt" width="300px" height="400px"></a>
+                <h3 id="TopW8">CoolMax T-shirt</h3>
+                <p id="php8">PHP 2,290</p>
+            </td>
+
+        </tr>
+    </table>
+    
+    <!-- JavaScript to toggle 'active' class -->
+    <script>
+        const links = document.querySelectorAll('nav ul li a, .right ul li a');
+    
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                if (this.getAttribute('href') === '' || this.getAttribute('href') === '#') {
+                    event.preventDefault(); // Only prevent default for links with no real destination
+                }
+    
+                links.forEach(item => item.classList.remove('active'));
+    
+                this.classList.add('active');
+            });
+        });
+    </script>
+    
+</body>
+</html>
