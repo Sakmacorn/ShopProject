@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacket Arrivals</title>
+    <link rel="icon" type="image/png" href="TMJLOGOS.png">
+    <link rel="stylesheet" href="jacket.css">
+</head> 
+<body>
+    <div class="container">
+        <header>
+            <h1>The Modish Brand</h1>
+        </header>
+    </div>
+
+    <!-- Menu icon and categories together -->
+    <div class="menu-container">
+        <div class="menu-icon">&#9776;</div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <a href="#">Jacket</a>
+                        <a href="#">Pants Women</a>
+                        <a href="#">Pants Men</a>
+                        <a href="#">Polo Women</a>
+                        <a href="#">Polo Men</a>
+                        <a href="#">Polo-Shirt</a>
+                        <a href="#">Shirt Men</a>
+                        <a href="#">Skirt</a>
+                        <a href="#">Underwear Women</a>
+                        <a href="#">Underwear Men</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">New Arrivals</button>
+                    <div class="dropdown-content">
+                        <a href="jacket.html">Jacket</a>
+                        <a href="PantsW.html">Pants Women</a>
+                        <a href="PantsM.html">Pants Men</a>
+                        <a href="TopWomen.html">Women Tops</a>
+                        <a href="Polo.html">Polo Men</a>
+                        <a href="T-ShirtMen.html">Men T-Shirt</a>
+                        <a href="Panty.html">Underwear Women</a>
+                        <a href="brief.html">Underwear Men</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="right"> 
+        <ul>
+            <li><a href="TMJReg.html">Register Now</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <table border="0" align="center" width="10%" class="picture">
+        <tr>
+            <td>
+                <img src="jacket1model.avif" alt="Regular-Fit Textured Overshirt" width="300px" height="400px">
+                <h3 id="jacket1">Regular-Fit Textured Overshirt</h3>
+                <p id="php1">PHP 2,490</p>
+            </td>
+
+            <td>
+                <img src="jacket2model.avif" alt="Regular-Fit Twill Overshirt" width="300px" height="400px">
+                <h3 id="jacket2">Regular-Fit Twill Overshirt</h3>
+                <p id="php2">PHP 1,790</p>
+            </td>
+
+            <td>
+                <img src="jacket3model.avif" alt="Regular-Fit Linen-Blend Overshirt" width="300px" height="400px">
+                <h3 id="jacket3">Linen-Blend Overshirt</h3>
+                <p id="php3">PHP 2,500</p>
+            </td>
+
+            <td>
+                <img src="jacket4model.avif" alt="Loose Fit Crinkled overshirt" width="300px" height="400px">
+                <h3 id="jacket4">Loose Fit Crinkled overshirt</h3>
+                <p id="php4">PHP 1,790</p>
+            </td>
+        </tr>
+    </table>
+
+    <table border="0" align="center" width="10%" class="picture">
+        <tr>
+            <td>
+                <img src="jacket5model.avif" alt="Regular Fit Velvet overshirt" width="300px" height="400px">
+                <h3 id="jacket5">Regular Fit Velvet overshirt</h3>
+                <p id="php5">PHP 3,000</p>
+            </td>
+
+            <td>
+                <img src="jacket6model.avif" alt="Twill Overshirt" width="300px" height="400px">
+                <h3 id="jacket6">Twill Overshirt</h3>
+                <p id="php6">PHP 2,990</p>
+            </td>
+
+            <td>
+                <img src="jacket7model.avif" alt="Regular Fit Mid layer jacket" width="300px" height="400px">
+                <h3 id="jacket7">Regular Fit Mid layer jacket</h3>
+                <p id="php7">PHP 3,000</p>
+            </td>
+
+            <td>
+                <img src="jacket8model.avif" alt="Regular Fit Collared bomber jacket" width="300px" height="400px">
+                <h3 id="jacket8">Fit Collared bomber jacket</h3>
+                <p id="php8">PHP 3,000</p>
+            </td>
+
+        </tr>
+    </table>
+    
+    <!-- JavaScript to toggle 'active' class -->
+    <script>
+        const links = document.querySelectorAll('nav ul li a, .right ul li a');
+    
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                if (this.getAttribute('href') === '' || this.getAttribute('href') === '#') {
+                    event.preventDefault(); // Only prevent default for links with no real destination
+                }
+    
+                links.forEach(item => item.classList.remove('active'));
+    
+                this.classList.add('active');
+            });
+        });
+    </script>
+    
+</body>
+</html>
