@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Modish Brand</title>
     <link rel="icon" type="image/png" href="TMJLOGOS.png">
-    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="home3.css">
 </head> 
 <body>
     <div class="container">
@@ -18,7 +18,7 @@
         <div class="menu-icon">&#9776;</div>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="home3.html">Home</a></li>
                 <li class="dropdown">
                     <button class="dropbtn">Categories</button>
                     <div class="dropdown-content">
@@ -68,6 +68,130 @@
         </div>
     </div>
 
+    
+    <h3 id="h4title">Showcasing the Spirit of The Modish Brand</h3>
+
+    <div class="image-container">
+        <!-- First row of images -->
+        <div>
+            <img id="myImg1" src="Wei Yiting Home Model.jpg" alt="mODEL">
+            <h4 id="model1">Wei Yiting</h4>
+        </div>
+    
+        <div>
+            <img id="myImg2" src="Evie Nopere Model.jpg" alt="mODEL">
+            <h4 id="model2">Evie Nopere</h4>
+        </div>
+    
+        <div>
+            <img id="myImg3" src="Vanessa Warg Model.jpg" alt="mODEL">
+            <h4 id="model3">Vanessa Warg</h4>
+        </div>
+    </div>
+    
+    <!-- Second row of images (below the first row) -->
+    <div class="image-container">
+        <div>
+            <img id="myImg4" src="Claire Marie Biegalski.jpg" alt="mODEL">
+            <h4 id="model4">Claire Marie Biegalski</h4>
+        </div>
+        <div>
+            <img id="myImg5" src="Libby Taverner.jpg" alt="mODEL">
+            <h4 id="model5">Libby Taverner</h4>
+        </div>
+        <div>
+            <img id="myImg6" src="Charlie Jones.jpg" alt="mODEL">
+            <h4 id="model6">Charlie Jones</h4>
+        </div>
+    </div>
+    
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <h3 class="h3title">The Modish experience, straight from our shoppers</h3>
+    <div class="first-feedback">
+        <img src="customer1.jpg" alt="Avatar" id="avatar1">
+        <p id="star1">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+        <h4>Ichig***263</h4>
+        <p id="comment1">The pleated skirt was perfect for a casual date night.
+            It moves beautifully, and I got so many compliments on how flattering it is!</p>
+    </div>
+
+    <div class="first-feedback">
+        <img src="customer2.jpg" alt="Avatar" id="avatar2">
+        <p id="star2">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+        <h4>jom***santia29</h4>
+        <p id="comment2">I received so many compliments when I wore the silk blouse to dinner!
+            It fits perfectly and feels incredibly smooth against the skin.</p>
+    </div>
+
+    <div class="first-feedback">
+        <img src="customer3.jpg" alt="Avatar" id="avatar3">
+        <p id="star3">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+        <h4>sungjin**23</h4>
+        <p id="comment3">I tried the denim jacket, and it quickly became my new favorite!
+            It's the perfect mix of casual and stylish, and the fabric is so durable.</p>
+    </div>
+
+    <footer style="background-color: #111; color: white; padding: 30px 0; margin-top: 50px; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="font-size: 18px; margin: 10px 0;">&copy; 2025 The Modish Brand. All rights reserved.</p>
+            
+            <p style="margin: 5px 0;">
+                <a href="AboutUs.html" style="color: #aaa; margin: 0 10px; text-decoration: none;" id="about">About Us</a> |
+                <a href="RefundPolicy.html" style="color: #aaa; margin: 0 10px; text-decoration: none;" id="refund">Refund Policy</a> |
+                <a href="https://mail.google.com/mail/?view=cm&to=mglllschlgml@gmail.com" target="_blank" id="gmail">Contact</a>
+            </p>
+    
+            <!-- Social Media Icons -->
+            <div style="margin-top: 20px; display: flex; justify-content: center; gap: 15px;">
+                <a href="https://www.facebook.com/profile.php?id=61575171415450" style="background-color: white; border-radius: 50%; padding: 10px; display: inline-block;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="24" height="24">
+                </a>
+                <a href="https://www.instagram.com/shopmodish23/" style="background-color: white; border-radius: 50%; padding: 10px; display: inline-block;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="24" height="24">
+                </a>
+                <a href="https://x.com/ModishBrand2333" style="background-color: white; border-radius: 50%; padding: 10px; display: inline-block;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script>
+        // Get all dropdown buttons and the dropdown content containers
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdowns = document.querySelectorAll('.dropdown');
+            
+            dropdowns.forEach(function(dropdown) {
+                var button = dropdown.querySelector('.dropbtn');
+                var dropdownContent = dropdown.querySelector('.dropdown-content');
+                
+                
+                button.addEventListener('click', function(event) {
+                    event.stopPropagation();
+        
+                    dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+                });
+            });
+            
+            // Close the dropdown if clicked outside
+            window.addEventListener('click', function(event) {
+                dropdowns.forEach(function(dropdown) {
+                    var dropdownContent = dropdown.querySelector('.dropdown-content');
+                    if (!dropdown.contains(event.target)) {
+                        dropdownContent.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
     <!-- JavaScript to toggle 'active' class -->
     <script>
         const links = document.querySelectorAll('nav ul li a, .right ul li a');
@@ -84,6 +208,53 @@
             });
         });
     </script>
-    
+
+    <script>
+        const modal = document.getElementById("myModal");
+        const modalImg = document.getElementById("img01");
+        const span = document.getElementsByClassName("close")[0];
+        const shopButton = document.querySelector(".shop-button");
+
+        const images = [document.getElementById("myImg1"), document.getElementById("myImg2"), document.getElementById("myImg3"),  document.getElementById("myImg4"),
+        document.getElementById("myImg5"),  document.getElementById("myImg6")];
+
+        images.forEach(img => {
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                shopButton.style.display = "none"; // Hide shop button
+            };
+        });
+
+        span.onclick = function () {
+            modal.style.display = "none";
+            shopButton.style.display = "block"; // Show it again
+        };
+
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                shopButton.style.display = "block"; // Show it again
+            }
+        };
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                shopButton.style.display = "block"; // Show it again
+            }
+        };
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                shopButton.style.display = "block"; // Show it again
+            }
+        };
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                shopButton.style.display = "block"; // Show it again
+            }
+        };
+    </script>
 </body>
 </html>
