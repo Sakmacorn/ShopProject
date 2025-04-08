@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
-    background: white;
+    background: snow;
     text-align: center;
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -124,7 +125,7 @@ nav ul li a.active,
     background-color: #f9f9f9;
     min-width: 180px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 999;
     padding: 10px 0;
     border-radius: 5px;
 }
@@ -199,7 +200,7 @@ nav ul li, .dropdown {
     background-color: #f9f9f9;
     min-width: 170px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 999;
     padding: 10px 0;
     border-radius: 40px;
 }
@@ -221,6 +222,7 @@ nav ul li, .dropdown {
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: 10px;
 }
 
 /* Button hover effect */
@@ -271,7 +273,7 @@ nav ul li, .dropdown {
 .fullscreen-video-container {
     position: relative;
     width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
+    height: 110vh; /* Full viewport height */
     overflow: hidden; /* Ensures content doesn’t overflow */
 }
 
@@ -308,5 +310,128 @@ nav ul li, .dropdown {
     color: #fff;
 }
 
+.image-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center vertically if needed */
+    width: 100%; /* Full width container */
+    gap: 80px; /* Space between the images */
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+}
 
+.image-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Space between rows */
+}
 
+#myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
+    width: 400px; 
+    height: auto;
+    padding-top: 0px;
+    display: block;
+    border: 2px solid snow;
+}
+
+/* Hover effect */
+#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover  {
+    opacity: 0.7;
+}
+
+/* Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#h4title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#model1, #model2, #model3, #model4, #model5, #model6 {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(192, 109, 36);
+}
+
+.first-feedback {
+    display: inline-block;
+    width: 250px; /* Adjust as needed */
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+#avatar1, #avatar2, #avatar3 {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.h3title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    color: black;
+    padding-top: 100px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#comment1, #comment2, #comment3 {
+    text-align: justify;
+    font-size: 17px;
+}
+
+#gmail {
+    text-decoration: none;
+    color: white;
+}
+
+#gmail:hover {
+    color: grey;
+}
