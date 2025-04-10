@@ -25,7 +25,16 @@ header {
 
 .menu-container {
     position: absolute;
-    top: 27.9px;
+    margin-top: 23px;
+    left: 97px; 
+    display: flex;
+    align-items: center;
+}
+
+
+.menu {
+    position: absolute;
+    top: 30px;
     left: 40px; 
     display: flex;
     align-items: center;
@@ -37,7 +46,6 @@ header {
     display: block;
     margin-right: 20px;
     margin-bottom: 30px;
-    margin-top: 28px;
     
 }   
 
@@ -433,5 +441,41 @@ nav ul li, .dropdown {
 }
 
 #gmail:hover {
+    color: grey;
+}
+
+/*menu css*/
+
+.fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fullscreen-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fullscreen-menu ul li {
+    margin: 20px 0;
+}
+
+.fullscreen-menu ul li a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.fullscreen-menu ul li a:hover {
     color: grey;
 }
