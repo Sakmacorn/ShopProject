@@ -14,8 +14,19 @@
     </div>
 
     <!-- Menu icon and categories together -->
+    <div class="menu">
+        <div class="menu-icon" onclick="toggleFullScreenMenu()">&#9776;</div>
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <ul>
+                <li><a href="home3.html">Home</a></li>
+                <li><a href="TMJReg.html">Register Now</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="#" onclick="toggleFullScreenMenu()">Close</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="menu-container">
-        <div class="menu-icon">&#9776;</div>
         <nav>
             <ul>
                 <li><a href="home3.html">Home</a></li>
@@ -89,7 +100,6 @@
         </div>
     </div>
     
-    <!-- Second row of images (below the first row) -->
     <div class="image-container">
         <div>
             <img id="myImg4" src="Claire Marie Biegalski.jpg" alt="mODEL">
@@ -105,8 +115,6 @@
         </div>
     </div>
     
-
-    <!-- Modal -->
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
@@ -142,9 +150,9 @@
             <p style="font-size: 18px; margin: 10px 0;">&copy; 2025 The Modish Brand. All rights reserved.</p>
             
             <p style="margin: 5px 0;">
-                <a href="AboutUs.html" style="color: #aaa; margin: 0 10px; text-decoration: none;" id="about">About Us</a> |
+                <a href="ToS.html" style="color: #aaa; margin: 0 10px; text-decoration: none;" id="about">Terms of Service</a> |
                 <a href="RefundPolicy.html" style="color: #aaa; margin: 0 10px; text-decoration: none;" id="refund">Refund Policy</a> |
-                <a href="https://mail.google.com/mail/?view=cm&to=mglllschlgml@gmail.com" target="_blank" id="gmail">Contact</a>
+                <a href="https://mail.google.com/mail/?view=cm&to=mglllschlgml@gmail.com" target="_blank" id="gmail">Contact Us</a>
             </p>
     
             <!-- Social Media Icons -->
@@ -164,7 +172,7 @@
 
     
     <script>
-        // Get all dropdown buttons and the dropdown content containers
+        // Java
         document.addEventListener('DOMContentLoaded', function() {
             var dropdowns = document.querySelectorAll('.dropdown');
             
@@ -255,6 +263,15 @@
                 shopButton.style.display = "block"; // Show it again
             }
         };
+    </script>
+
+    <script>
+        
+    function toggleFullScreenMenu() {
+        const menu = document.getElementById('fullscreenMenu');
+        menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    }
+
     </script>
 </body>
 </html>
