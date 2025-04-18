@@ -1,0 +1,438 @@
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>The Modish Brand</title>
+      <link rel="icon" type="image/png" href="TMJLOGOS.png">
+      <link rel="stylesheet" href="PoloShirtMenCateg.css">
+  </head> 
+  <body>
+      <div class="container">
+          <header>
+              <h1>The Modish Brand</h1>
+          </header>
+      </div>
+  
+      <div class="menu">
+        <div class="menu-icon" onclick="toggleFullScreenMenu()">&#9776;</div>
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <ul>
+                <li><a href="home3.html">Home</a></li>
+                <li><a href="TMJReg.html">Register Now</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="#" onclick="toggleFullScreenMenu()">Close</a></li>
+            </ul>
+        </div>
+    </div>
+
+      <!-- Menu icon and categories together -->
+      <div class="menu-container">
+        <nav>
+            <ul>
+                <li><a href="home3.html">Home</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <a href="#">Jacket</a>
+                        <a href="#">Pants Women</a>
+                        <a href="#">Pants Men</a>
+                        <a href="#">Polo Women</a>
+                        <a href="#">Polo Men</a>
+                        <a href="#">Polo-Shirt</a>
+                        <a href="#">Shirt Men</a>
+                        <a href="#">Skirt</a>
+                        <a href="#">Underwear Women</a>
+                        <a href="#">Underwear Men</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">New Arrivals</button>
+                    <div class="dropdown-content">
+                        <a href="jacket.html">Jacket</a>
+                        <a href="PantsW.html">Pants Women</a>
+                        <a href="PantsM.html">Pants Men</a>
+                        <a href="TopWomen.html">Women Tops</a>
+                        <a href="Polo.html">Polo Men</a>
+                        <a href="T-ShirtMen.html">Men T-Shirt</a>
+                        <a href="Panty.html">Underwear Women</a>
+                        <a href="brief.html">Underwear Men</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+      <div class="right"> 
+          <ul>
+              <li><a href="TMJReg.html">Register Now</a></li>
+              <li><a href="account.html">Account</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+          </ul>
+      </div>
+
+      <div class="slideshow-container">
+          <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="slideshow1.png" style="width:100%" height="70%">
+          <div class="text"></div>
+      </div>
+          
+      <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+              <img src="slideshow2.png" style="width:100%" height="70%">
+          <div class="text"></div>
+      </div>
+          
+      <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+              <img src="slideshow3.png" style="width:100%" height="70%">
+          <div class="text"></div>
+      </div>
+    
+      <div class="slideshow-container">
+
+        <div class="carousel-indicators">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+      </div>
+      
+      <div class="responsive">
+          <div class="gallery">
+              <a href="Plm1.jpg" class="lightbox">
+                  <img src="Plm01.jpg" alt="Brown">
+              </a>          
+            <div class="desc">Women's Wide-Leg Denim Cargo</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm2.jpg" class="lightbox">
+              <img src="Plm02.jpg " alt="Grey">
+            </a>
+            <div class="desc">Bench Everyday Women's Baggy</div>
+          </div>
+      </div>
+        
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm3.jpg" class="lightbox">
+              <img src="Plm03.jpg" alt="White">
+            </a>
+            <div class="desc">Women's Baggy Pants Black</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm4.jpg" class="lightbox">
+              <img src="Plm04.jpg" alt="Blue">
+            </a>
+            <div class="desc">Women's Wide-Leg Cargo Pants Gray</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm05.webp" class="lightbox">
+              <img src="Plm05.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Nylon Shirt with Pockets Black</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm6.webp" class="lightbox">
+              <img src="Plm06.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Nylon Shirt with PocketsLight Gray</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm7.webp" class="lightbox">
+              <img src="Plm07.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Short Sleeves Resort Shirt White</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm8.webp" class="lightbox">
+              <img src="Plm08.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Short Sleeves Resort Shirt Blue</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm09.webp" class="lightbox">
+              <img src="Plm09.webp" alt="Blue">
+            </a>
+            <div class="desc">Regular Fit Short Sleeves Shirt Black</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm10.webp" class="lightbox">
+              <img src="Plm010.webp" alt="Blue">
+            </a>
+            <div class="desc">Regular Fit Short Sleeves Shirt Browm</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm11.webp" class="lightbox">
+              <img src="Plm011.webp" alt="Blue">
+            </a>
+            <div class="desc">Dress Code Relaxed Fit Short Sleeves Shirt</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm12.jpg" class="lightbox">
+              <img src="Plm012.webp" alt="Blue">
+            </a>
+            <div class="desc">Dress Code Relaxed Fit Short Sleeves Shirt</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm13.webp" class="lightbox">
+              <img src="Plm013.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Short Sleeves Resort Shirt with</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm14.webp" class="lightbox">
+              <img src="Plm014.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Short Sleeves Resort Shirt with</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm15.webp" class="lightbox">
+              <img src="Plm015.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm16.webp" class="lightbox">
+              <img src="Plm016.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm17.webp" class="lightbox">
+              <img src="Plm017.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm18.webp" class="lightbox">
+              <img src="Plm018.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm19.webp" class="lightbox">
+              <img src="Plm019.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm020.webp" class="lightbox">
+              <img src="Plm020.webp"alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm21.jpg" class="lightbox">
+              <img src="Plm021.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm22.webp" class="lightbox">
+              <img src="Plm022.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm23.webp" class="lightbox">
+              <img src="Plm023.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm24.webp" class="lightbox">
+              <img src="Plm024.webp" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm25.jpg" class="lightbox">
+              <img src="Plm025.jpg" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm26.jpg" class="lightbox">
+              <img src="Plm026.jpg" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm27.jpg" class="lightbox">
+              <img src="Plm027.jpg" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a href="Plm28.jpg" class="lightbox">
+              <img src="Plm028.jpg" alt="Blue">
+            </a>
+            <div class="desc">Relaxed Fit Shirt with Pockets</div>
+          </div>
+      </div>
+
+
+      <div class="clearfix"></div>
+
+      <div class="lightbox-overlay">
+          <span class="close-btn">&times;</span>
+          <img id="lightbox-img" src="">
+      </div>    
+
+      <script>
+          const links = document.querySelectorAll('nav ul li a, .right ul li a');
+      
+          links.forEach(link => {
+              link.addEventListener('click', function(event) {
+                  if (this.getAttribute('href') === '' || this.getAttribute('href') === '#') {
+                      event.preventDefault(); // Only prevent default for links with no real destination
+                  }
+      
+                  links.forEach(item => item.classList.remove('active'));
+      
+                  this.classList.add('active');
+              });
+          });
+      </script>
+
+      <script>
+          let slideIndex = 0;
+          showSlides();
+      
+          function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+      </script>
+
+      <script>
+          const lightbox = document.querySelector('.lightbox-overlay');
+          const lightboxImg = document.getElementById('lightbox-img');
+          const closeBtn = document.querySelector('.close-btn');
+
+          document.querySelectorAll('.lightbox').forEach(link => {
+              link.addEventListener('click', function (event) {
+                  event.preventDefault();
+                  lightbox.style.display = 'flex';
+                  lightboxImg.src = this.href;
+              });
+          });
+
+          
+          closeBtn.addEventListener('click', () => {
+              lightbox.style.display = 'none';
+          });
+
+          lightbox.addEventListener('click', (event) => {
+              if (event.target === lightbox) {
+                  lightbox.style.display = 'none';
+              }
+          });
+      </script>
+
+      <script>
+        function toggleFullScreenMenu() {
+            const menu = document.getElementById('fullscreenMenu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+      </script>
+  </body>
+  </html>
