@@ -1,0 +1,400 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Modish Brand</title>
+    <link rel="icon" type="image/png" href="TMJLOGOS.png">
+    <link rel="stylesheet" href="PoloWomenCateg.css">
+</head> 
+<body>
+    <div class="container">
+        <header>
+            <h1>The Modish Brand</h1>
+        </header>
+    </div>
+
+    <div class="menu">
+        <div class="menu-icon" onclick="toggleFullScreenMenu()">&#9776;</div>
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <ul>
+                <li><a href="home3.html">Home</a></li>
+                <li><a href="TMJReg.html">Register Now</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="#" onclick="toggleFullScreenMenu()">Close</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Menu icon and categories together -->
+    <div class="menu-container">
+      <nav>
+          <ul>
+              <li><a href="home3.html">Home</a></li>
+              <li class="dropdown">
+                  <button class="dropbtn">Categories</button>
+                  <div class="dropdown-content">
+                      <a href="#">Jacket</a>
+                      <a href="#">Pants Women</a>
+                      <a href="#">Pants Men</a>
+                      <a href="#">Polo Women</a>
+                      <a href="#">Polo Men</a>
+                      <a href="#">Polo-Shirt</a>
+                      <a href="#">Shirt Men</a>
+                      <a href="#">Skirt</a>
+                      <a href="#">Underwear Women</a>
+                      <a href="#">Underwear Men</a>
+                  </div>
+              </li>
+              <li class="dropdown">
+                  <button class="dropbtn">New Arrivals</button>
+                  <div class="dropdown-content">
+                      <a href="jacket.html">Jacket</a>
+                      <a href="PantsW.html">Pants Women</a>
+                      <a href="PantsM.html">Pants Men</a>
+                      <a href="TopWomen.html">Women Tops</a>
+                      <a href="Polo.html">Polo Men</a>
+                      <a href="T-ShirtMen.html">Men T-Shirt</a>
+                      <a href="Panty.html">Underwear Women</a>
+                      <a href="brief.html">Underwear Men</a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+  </div>
+
+    <div class="right"> 
+        <ul>
+            <li><a href="TMJReg.html">Register Now</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="slideshow1.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+        
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+            <img src="slideshow2.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+        
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+            <img src="slideshow3.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+
+        <br>
+        
+        <div class="slideshow-container">
+
+          <div class="carousel-indicators">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+          </div>
+      </div>
+    
+    
+    <div class="responsive">
+        <div class="gallery">
+            <a href="Plw1.jpg" class="lightbox">
+                <img src="Plw01.jpg" alt="Brown">
+            </a>          
+          <div class="desc">Women's Wide-Leg Denim Cargo</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw2.jpg" class="lightbox">
+            <img src="Plw02.jpg " alt="Grey">
+          </a>
+          <div class="desc">Bench Everyday Women's Baggy</div>
+        </div>
+    </div>
+      
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw3.jpg" class="lightbox">
+            <img src="Plw03.jpg" alt="White">
+          </a>
+          <div class="desc">Women's Baggy Pants Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw4.jpg" class="lightbox">
+            <img src="Plw04.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Cargo Pants Gray</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw5.jpg" class="lightbox">
+            <img src="Plw05.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Cargo Pants Khaki</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw6.jpg" class="lightbox">
+            <img src="Plw06.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Baggy Pants</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw7.jpg" class="lightbox">
+            <img src="Plw07.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Baggy Pants Khaki</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw8.jpg" class="lightbox">
+            <img src="Plw08.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Flared Denim Jeans</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw9.webp" class="lightbox">
+            <img src="plw09.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Baggy Cargo Pants Green</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw10.webp" class="lightbox">
+            <img src="Plw010.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Baggy Cargo Pants Blue</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw11.webp" class="lightbox">
+            <img src="Plw011.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Baggy Denim Pants Denim Mid Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw12.webp" class="lightbox">
+            <img src="Plw012.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Baggy Denim Pants Denim</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw13.webp" class="lightbox">
+            <img src="Plw013.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Trousers Green</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw14.webp" class="lightbox">
+            <img src="Plw014.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Trousers Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw15.webp" class="lightbox">
+            <img src="Plw015.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Corduroy Wide-Leg Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw16.webp" class="lightbox">
+            <img src="Plw016.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Corduroy Wide-Leg Beige</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw17.webp" class="lightbox">
+            <img src="Plw017.jpg" alt="Blue">
+          </a>
+          <div class="desc">Bench Everyday Women's Straight Pants Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw18.webp" class="lightbox">
+            <img src="Plw018.jpg" alt="Blue">
+          </a>
+          <div class="desc">Bench Everyday Women's Straight Pants Gray</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw19.webp" class="lightbox">
+            <img src="Plw019.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Denim Pants</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw20.webp" class="lightbox">
+            <img src="Plw020.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Denim Pants</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw21.webp" class="lightbox">
+            <img src="Plw021.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Woven Trousers Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw22.webp" class="lightbox">
+            <img src="Plw022.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Woven Trousers Blue</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw23.webp" class="lightbox">
+            <img src="Plw023.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Ripped Straight Jeans</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Plw24.webp" class="lightbox">
+            <img src="Plw024.jpg" alt="Blue">
+          </a>
+          <div class="desc">Women's Wide-Leg Jeans</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="lightbox-overlay">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>    
+
+    <script>
+        const links = document.querySelectorAll('nav ul li a, .right ul li a');
+    
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                if (this.getAttribute('href') === '' || this.getAttribute('href') === '#') {
+                    event.preventDefault(); // Only prevent default for links with no real destination
+                }
+    
+                links.forEach(item => item.classList.remove('active'));
+    
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <script>
+        const lightbox = document.querySelector('.lightbox-overlay');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeBtn = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.lightbox').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                lightbox.style.display = 'flex';
+                lightboxImg.src = this.href;
+            });
+        });
+
+        
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+
+  <script>
+    // Toggle full-screen menu on and off
+      function toggleFullScreenMenu() {
+        const menu = document.getElementById('fullscreenMenu');
+        menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    }
+  </script>
+</body>
+</html>
