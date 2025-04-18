@@ -1,0 +1,467 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Modish Brand</title>
+    <link rel="icon" type="image/png" href="TMJLOGOS.png">
+    <link rel="stylesheet" href="PantsMenCateg.css">
+</head> 
+<body>
+    <div class="container">
+        <header>
+            <h1>The Modish Brand</h1>
+        </header>
+    </div>
+
+    <div class="menu">
+      <div class="menu-icon" onclick="toggleFullScreenMenu()">&#9776;</div>
+      <div class="fullscreen-menu" id="fullscreenMenu">
+          <ul>
+              <li><a href="home3.html">Home</a></li>
+              <li><a href="TMJReg.html">Register Now</a></li>
+              <li><a href="account.html">Account</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="#" onclick="toggleFullScreenMenu()">Close</a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="menu-container">
+      <nav>
+          <ul>
+              <li><a href="home3.html">Home</a></li>
+              <li class="dropdown">
+                  <button class="dropbtn">Categories</button>
+                  <div class="dropdown-content">
+                      <a href="#">Jacket</a>
+                      <a href="#">Pants Women</a>
+                      <a href="#">Pants Men</a>
+                      <a href="#">Polo Women</a>
+                      <a href="#">Polo Men</a>
+                      <a href="#">Polo-Shirt</a>
+                      <a href="#">Shirt Men</a>
+                      <a href="#">Skirt</a>
+                      <a href="#">Underwear Women</a>
+                      <a href="#">Underwear Men</a>
+                  </div>
+              </li>
+              <li class="dropdown">
+                  <button class="dropbtn">New Arrivals</button>
+                  <div class="dropdown-content">
+                      <a href="jacket.html">Jacket</a>
+                      <a href="PantsW.html">Pants Women</a>
+                      <a href="PantsM.html">Pants Men</a>
+                      <a href="TopWomen.html">Women Tops</a>
+                      <a href="Polo.html">Polo Men</a>
+                      <a href="T-ShirtMen.html">Men T-Shirt</a>
+                      <a href="Panty.html">Underwear Women</a>
+                      <a href="brief.html">Underwear Men</a>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+    </div>
+
+    <div class="right"> 
+        <ul>
+            <li><a href="TMJReg.html">Register Now</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="slideshow1.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+        
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+            <img src="slideshow2.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+        
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+            <img src="slideshow3.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+
+    <div class="slideshow-container">
+
+      <div class="carousel-indicators">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+        <div class="gallery">
+            <a href="Pm1.jpg" class="lightbox">
+                <img src="Pm01.jpg" alt="Brown" width="600" height="400">
+            </a>          
+          <div class="desc">Women's Wide-Leg Denim Cargo</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm2.jpg" class="lightbox">
+            <img src="Pm02.jpg " alt="Grey" width="600" height="400">
+          </a>
+          <div class="desc">Bench Everyday Women's Baggy</div>
+        </div>
+    </div>
+      
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm3.jpg" class="lightbox">
+            <img src="Pm03.jpg" alt="White" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Pants Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm4.jpg" class="lightbox">
+            <img src="Pm04.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Cargo Pants Gray</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm5.jpg" class="lightbox">
+            <img src="Pm05.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Cargo Pants Khaki</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm6.jpg" class="lightbox">
+            <img src="Pm06.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Pants</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm7.jpg" class="lightbox">
+            <img src="Pm07.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Pants Khaki</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm8.webp" class="lightbox">
+            <img src="Pm08.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Flared Denim Jeans</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm9.jpg" class="lightbox">
+            <img src="Pm09.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Cargo Pants Green</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm10.webp" class="lightbox">
+            <img src="Pm010.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Cargo Pants Blue</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm11.jpg" class="lightbox">
+            <img src="Pm011.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Denim Pants Denim Mid Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm12.jpg" class="lightbox">
+            <img src="Pm012.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Baggy Denim Pants Denim</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="pm13.webp" class="lightbox">
+            <img src="Pm013.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Trousers Green</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm14.webp" class="lightbox">
+            <img src="Pm014.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Trousers Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm15.webp" class="lightbox">
+            <img src="Pm015.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Corduroy Wide-Leg Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm16.webp" class="lightbox">
+            <img src="Pm016.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Corduroy Wide-Leg Beige</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm17.webp" class="lightbox">
+            <img src="Pm017.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Bench Everyday Women's Straight Pants Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm18.webp" class="lightbox">
+            <img src="Pm018.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Bench Everyday Women's Straight Pants Gray</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm19.webp" class="lightbox">
+            <img src="Pm019.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Denim Pants</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm20.webp" class="lightbox">
+            <img src="Pm020.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Denim Pants</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm21.webp" class="lightbox">
+            <img src="Pm021.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Woven Trousers Black</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm22.webp" class="lightbox">
+            <img src="Pm022.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Woven Trousers Blue</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm23.webp" class="lightbox">
+            <img src="Pm023.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Ripped Straight Jeans</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Pm24.webp" class="lightbox">
+            <img src="Pm024.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Women's Wide-Leg Jeans</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="Pm25.webp" class="lightbox">
+          <img src="Pm025.jpg" alt="Blue" width="600" height="400">
+        </a>
+        <div class="desc">Women's Wide-Leg Jeans</div>
+      </div>
+   </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="Pm26.webp" class="lightbox">
+           <img src="Pm026.jpg" alt="Blue" width="600" height="400">
+        </a>
+        <div class="desc">Women's Wide-Leg Jeans</div>
+     </div>
+   </div>
+
+   <div class="responsive">
+     <div class="gallery">
+       <a href="Pm27.webp" class="lightbox">
+          <img src="Pm027.jpg" alt="Blue" width="600" height="400">
+       </a>
+       <div class="desc">Women's Wide-Leg Jeans</div>
+      </div>
+   </div>
+
+   <div class="responsive">
+     <div class="gallery">
+       <a href="Pm28.webp" class="lightbox">
+           <img src="Pm028.jpg" alt="Blue" width="600" height="400">
+       </a>
+       <div class="desc">Women's Wide-Leg Jeans</div>
+     </div>
+   </div>
+
+   <div class="responsive">
+     <div class="gallery">
+       <a href="Pm29.webp" class="lightbox">
+           <img src="Pm029.jpg" alt="Blue" width="600" height="400">
+       </a>
+       <div class="desc">Women's Wide-Leg Jeans</div>
+     </div>
+   </div>
+
+   <div class="responsive">
+     <div class="gallery">
+       <a href="Pm30.webp" class="lightbox">
+           <img src="Pm030.jpg" alt="Blue" width="600" height="400">
+       </a>
+       <div class="desc">Women's Wide-Leg Jeans</div>
+     </div>
+   </div>   
+
+   <div class="responsive">
+     <div class="gallery">
+       <a href="Pm31.webp" class="lightbox">
+           <img src="Pm031.jpg" alt="Blue" width="600" height="400">
+       </a>
+       <div class="desc">Women's Wide-Leg Jeans</div>
+     </div>
+   </div>   
+
+   <div class="responsive">
+     <div class="gallery">
+       <a href="Pm32.webp" class="lightbox">
+           <img src="Pm032.jpg" alt="Blue" width="600" height="400">
+       </a>
+       <div class="desc">Women's Wide-Leg Jeans</div>
+     </div>
+   </div>   
+
+    <div class="clearfix"></div>
+
+    <div class="lightbox-overlay">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>    
+
+    <script>
+        const links = document.querySelectorAll('nav ul li a, .right ul li a');
+    
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                if (this.getAttribute('href') === '' || this.getAttribute('href') === '#') {
+                    event.preventDefault(); // Only prevent default for links with no real destination
+                }
+    
+                links.forEach(item => item.classList.remove('active'));
+    
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <script>
+        const lightbox = document.querySelector('.lightbox-overlay');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeBtn = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.lightbox').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                lightbox.style.display = 'flex';
+                lightboxImg.src = this.href;
+            });
+        });
+
+        
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+
+    <script>
+        function toggleFullScreenMenu() {
+            const menu = document.getElementById('fullscreenMenu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+</body>
+</html>
